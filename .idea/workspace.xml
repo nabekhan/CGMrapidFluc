@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c476ca4-2960-4ad5-bcc6-0b344a4a9dec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CGMrapidFluc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datafetcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flucCalc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlCreator.py" afterDir="false" />
+    <list default="true" id="8c476ca4-2960-4ad5-bcc6-0b344a4a9dec" name="Changes" comment="Time in rapid fluctuation calculator&#10;(&gt;0.55 mmol/l/5m)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flucCalc.py" beforeDir="false" afterPath="$PROJECT_DIR$/flucCalc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nabekhan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nabekhan/CGMrapidFluc",
+    "accountId": "3acc9ad4-5ad5-4bf4-a686-56a1a318d2cf"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -69,17 +71,27 @@
       <option name="presentableId" value="Default" />
       <updated>1721443929171</updated>
     </task>
+    <task id="LOCAL-00001" summary="Time in rapid fluctuation calculator&#10;(&gt;0.55 mmol/l/5m)">
+      <option name="closed" value="true" />
+      <created>1721451746101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721451746101</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Time in rapid fluctuation calculator&#10;(&gt;0.55 mmol/l/5m)">
+      <option name="closed" value="true" />
+      <created>1721451751182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721451751182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Time in rapid fluctuation calculator&#10;(&gt;0.55 mmol/l/5m)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time in rapid fluctuation calculator&#10;(&gt;0.55 mmol/l/5m)" />
   </component>
 </project>

@@ -10,7 +10,7 @@ def flucCalc(glucoseList, startTime_index, bg_index):
       continue
     else:
       timeDelta = (datetime.fromisoformat(point[startTime_index]) - datetime.fromisoformat(previous_point[startTime_index])).total_seconds()/60
-      if (timeDelta == 0 ) or (timeDelta > maxGap):
+      if (timeDelta < 3) or (timeDelta > maxGap):
         previous_point = point
         continue
       events += 1
