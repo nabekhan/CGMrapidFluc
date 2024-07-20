@@ -4,7 +4,7 @@ from flucCalc import flucCalc
 
 # Setting up variables
 ptID = "nabe"
-ptURL = "https://b0b27394-ad79-571e-965a-2b97275913d2.cgm.bcdiabetes.ca/"
+ptURL = "https://nabe.cgm.bcdiabetes.ca/"
 startdate = "2024-07-01T23:59:59"
 enddate = "2024-07-13T23:59:59"
 
@@ -17,7 +17,7 @@ with open(csvfile, encoding='cp437', errors="ignore") as file:
     data = list(csv.reader(file))
     headers = data[0]
     startDateIndex = headers.index('dateString')
-    bgIndex = headers.index('glucose')
+    bgIndex = headers.index('sgv')
     data = data[1:] # remove headers
     filter_data = []
     for entry in data:
