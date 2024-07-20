@@ -1,6 +1,6 @@
 from outputData import outputData
 import csv
-from  flucCalc import flucCalc
+from flucCalc import flucCalc
 
 # Setting up variables
 ptID = "nabe"
